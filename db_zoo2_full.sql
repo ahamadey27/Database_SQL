@@ -1,5 +1,5 @@
 
-CREATE PROCEDURE createZoodb
+CREATE PROCEDURE createZoodb_2
 AS
 BEGIN
 
@@ -182,3 +182,5 @@ END
 	SELECT * FROM tbl_specialist;
 	SELECT * FROM tbl_care;
 	SELECT * FROM tbl_species;
+
+	SELECT tbl_habitat; 
